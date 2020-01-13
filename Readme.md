@@ -1,6 +1,6 @@
-# vscode SDL project with lodepng
+# A simple snake game.
 
-SDLimage provides complete support for reading image files, but the most used image format for game production is png images, so this SDL empty project only supports png.
+A simple snake game.
 
 The project uses vscode as the development environment.
 

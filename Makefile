@@ -1,6 +1,6 @@
 CC=gcc
 INC=./include
-CFLAGS=-I $(INC) -s -O2 -DNDEBUG
+CFLAGS=-I $(INC) -s -O2 -DNDEBUG -mwindows
 
 a.exe: main.c res.o lodepng.o sprite.o
 	$(CC) main.c SDL2.dll res.o lodepng.o sprite.o $(CFLAGS) -o a.exe
